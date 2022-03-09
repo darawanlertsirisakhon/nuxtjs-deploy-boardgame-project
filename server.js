@@ -3,7 +3,7 @@ const cors = require('cors');
 
 const app = express();
 const router = express.Router();
-
+const port = 3000;
 app.use(cors());
 app.use(express.json());
 
@@ -43,6 +43,6 @@ router.post('/login', (req, res) => {
 
 app.use('/api', router);
 
-app.listen(12345, () => {
-  console.log('Mock API start on port 12345');
+app.listen(process.env.PORT || port, () => {
+  console.log('Mock API start on port '+ {port});
 });
