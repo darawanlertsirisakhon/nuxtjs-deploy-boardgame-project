@@ -15,7 +15,7 @@
             <div class="container">
               <div class="row">
                 <div class="col-md-9 col-lg-8 mx-auto">
-                  <h3 class="login-heading mb-4">Welcome back!</h3>
+                  <h3 class="login-heading mb-4">Login for Admin</h3>
 
                   <!-- Sign In Form -->
                   <form @submit="login">
@@ -98,7 +98,7 @@ export default {
 }
 
 .bg-image {
-  background-image: url('https://source.unsplash.com/WEQbe2jBg40/600x1200');
+  background-image: url('https://firebasestorage.googleapis.com/v0/b/boardgame-nuxtjs.appspot.com/o/3726585.jpg?alt=media&token=28a42911-ed11-44d9-895e-d9ed4b44ca49');
   background-size: cover;
   background-position: center;
 }

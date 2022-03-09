@@ -88,7 +88,7 @@ export default {
       loggedIn: this.$auth.loggedIn,
     }
   },
-  
+
   methods: {
     async logout(e) {
       await this.$auth.logout()
@@ -97,9 +97,9 @@ export default {
   },
 }
 </script>
-<style>
+<style scoped>
 .masthead {
-  min-height: 30rem;
+  min-height: 20rem;
   position: relative;
   display: table;
   width: 100%;
@@ -111,7 +111,7 @@ export default {
       rgba(255, 255, 255, 0.1) 0%,
       rgba(255, 255, 255, 0.1) 100%
     ),
-    url('././assets/header2.jpg');
+    url('https://firebasestorage.googleapis.com/v0/b/boardgame-nuxtjs.appspot.com/o/4562472.jpg?alt=media&token=98558d69-3313-4507-80fd-17fdf4498624');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -121,7 +121,12 @@ export default {
   font-size: 3rem;
   margin: 0;
   padding: 0;
+  color: white;
 }
+h3 {
+  color: white;
+}
+
 .content-section {
   padding-top: 7.5rem;
   padding-bottom: 7.5rem;
