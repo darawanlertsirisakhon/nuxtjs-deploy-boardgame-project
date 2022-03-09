@@ -43,6 +43,6 @@ router.post('/login', (req, res) => {
 
 app.use('/api', router);
 
-app.listen(process.env.PORT || port, () => {
-  console.log('Mock API start on port '+ {port});
+app.listen(port, () => {
+  console.log('API port http://localhost:'+{port});
 });
